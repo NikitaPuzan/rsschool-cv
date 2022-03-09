@@ -2,10 +2,10 @@
 ***
 ### Contacts
 ---
-**Phones**: +375447213798
-**Email**: 1phoenixnik1@gmail.com
-**Location**: Minsk, Belarus
-**Github**: [NikitaPuzan](https://github.com/NikitaPuzan)
+* **Phones**: +375447213798
+* **Email**: 1phoenixnik1@gmail.com
+* **Location**: Minsk, Belarus
+* **Github**: [NikitaPuzan](https://github.com/NikitaPuzan)
 ### Skills
 ---
 * HTML&CSS
@@ -22,8 +22,11 @@ I'm a junior software developer who has been self-taught for 6 months to im- pro
 
 ### Code example
 ---
-
-
+```
+var moveZeros = function (arr) {
+  return arr.filter( elem => elem !== 0).concat(arr.filter( elem => elem === 0))
+}
+```
 ### Education
 ---
 * Incomplete higher education at BSUIR in the specialty:
